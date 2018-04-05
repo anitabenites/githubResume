@@ -1,0 +1,66 @@
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    height: 550px;
+    width: 500px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    border: 1px solid rgb(255,62,82);
+    margin-top: 20px;
+    position: relative;
+    background-image: url('newImage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card-body {
+    padding: 10px 30px 30px 30px;
+    color: black;
+    font-weight:bold;
+    font-family:monospace;
+}
+.card-header {
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+}
+.avatar {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.insideInfo {
+    float: left;
+    margin-left: 10%;
+    font-family:monospace;
+    font-weight:bold;
+}
+.name {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    color: white;
+}
+.btn {
+    background-color: black;
+    color: white;
+}
+.input-group {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.input-group-btn {
+    width: 0;
+    padding-left: 10px;
+}
